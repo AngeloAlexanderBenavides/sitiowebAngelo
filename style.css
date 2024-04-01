@@ -1,0 +1,51 @@
+body {
+    background: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*El estilo de la cabeza de la pagina web, el fondo, el color de
+la letra, tamaño al rededor del texto y centrado de texto*/
+
+header, #panel {
+    background: rgb(7, 7, 26);
+    color: white;
+    padding: 5px; 
+    text-align: center;
+
+}
+/**/
+#panel ul {
+    list-style-type: none; 
+    padding: 0;
+    color: #ffffff; 
+}
+
+/**/
+#panel ul li {
+    display: inline-block;
+    margin-right: 10px;
+    background: #2b1de2;
+}
+/**/
+#contenedor {
+    background: rgb(0, 0, 0);
+    padding: 20px; 
+    margin: 0 auto; 
+    width: 80%; 
+    max-width: 800px;
+}
+#FondoImagen {
+    background-image: url('Fondo.webp');
+    background-size: 100%;
+    background-position: center;
+    color: #ffffff;
+    padding: 40px; 
+}
+#ImagenAngelo img {
+    max-width: 100%; 
+    height: auto;
+}
+
+#Videos{
+    background: black;
+    padding: 50px;
+}
