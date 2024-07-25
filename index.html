@@ -25,28 +25,40 @@
     <section>
         <input type="checkbox" id="check">
         <header>
-            <a><img width="25px" height="25px"  src="/photos/logoAngeloBenavides.png" class="logo"></a>
+            <a><img width="50px" height="50px" src="/photos/logoAngeloBenavides.png" class="logo"></a>
             <div class="menu">
                 <a href="#about">Sobre mí</a>
                 <a href="#projects">Proyectos</a>
                 <a href="#skills">Habilidades</a>
                 <a href="#contact">Contacto</a>
             </div>
-            <label for="check">
-                <i class="fas fa-bars menu-btn"></i>
-                <i class="fas fa-times close-btn"></i>
-            </label>
+            <div>
+                <label for="check">
+                    <i class="fas fa-bars menu-btn"></i>
+                    <i class="fas fa-times close-btn"></i>
+                </label>
+            </div>
+
         </header>
     </section>
 
 
-    <h1>Python Developer</h1>
+
 
     <section id="about">
-        <h2>Sobre mí</h2>
         <img src="./photos/Imagen Angelo.jpg" alt="Angelo Benavides" class="responsive">
         <p>Hola, mi nombre es Angelo Benavides y actualmente estoy estudiando <strong>Ingeniería de Computación</strong>
         </p>
+
+        <section>
+            <div class="bg-image"></div>
+
+            <div class="bg-text">
+                <h1>Mi nombre es Angelo</h1>
+                <p>y soy desarrollador de software</p>
+            </div>
+        </section>
+
         <video style="width: 100%; aspect-ratio:638/317" autoplay muted loop
             src="./Videos/vecteezy_cryptocurrency-mining-on-a-computer-screen-the-algorithm-of_14748384.mov"></video>
         <details>
@@ -63,33 +75,54 @@
         </details>
     </section>
 
+
+
     <main>
-        <section id="projects">
-            <h2>Proyectos</h2>
-            <div class="project">
-                <img width="400" height="500" src="/photos/proyecto1.png" alt="Proyecto 1">
-                <h3>Nombre del Proyecto 1</h3>
-                <p>Descripción breve del proyecto, tecnologías utilizadas y tu rol en el proyecto.</p>
-                <a href="enlace/al/proyecto1">Ver proyecto</a>
+
+
+        <section>
+            <h2>PORTFOLIO</h2>
+            <p>Resize the browser window to see the responsive effect.</p>
+
+            <!-- Portfolio Gallery Grid -->
+            <section class="row">
+                <article class="column">
+                    <div class="content">
+                        <img src="/photos/proyecto1.png" alt="Mountains" style="width:100%">
+                        <h3>My Work</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </article>
+
+                <article class="column">
+                    <div class="content">
+                        <img src="/photos/proyecto2.png" alt="Lights" style="width:100%">
+                        <h3>My Work</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </article>
+                <div class="column">
+                    <div class="content">
+                        <img src="/photos/proyecto3.jpg" alt="Nature" style="width:100%">
+                        <h3>My Work</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </div>
+                <article class="column">
+                    <div class="content">
+                        <img src="/photos/proyecto4.jpg" alt="Mountains" style="width:100%">
+                        <h3>My Work</h3>
+                        <p>Lorem ipsum..</p>
+                    </div>
+                </article>
+            </section>
+
+            <div class="content">
+                <img src="/photos/proyecto4.jpg" alt="Bear" style="width:100%">
+                <h3>Some Other Work</h3>
+                <p>Lorem ipsum..</p>
             </div>
-            <div class="project">
-                <img width="400" height="500" src="/photos/proyecto2.png" alt="Proyecto 2">
-                <h3>Nombre del Proyecto 2</h3>
-                <p>Descripción breve del proyecto, tecnologías utilizadas y tu rol en el proyecto.</p>
-                <a href="enlace/al/proyecto2">Ver proyecto</a>
-            </div>
-            <div class="project">
-                <img loading="lazy" width="400" height="500" src="/photos/proyecto3.jpg" alt="Proyecto 3">
-                <h3>Nombre del Proyecto 3</h3>
-                <p>Descripción breve del proyecto, tecnologías utilizadas y tu rol en el proyecto.</p>
-                <a href="enlace/al/proyecto3">Ver proyecto</a>
-            </div>
-            <div class="project">
-                <img loading="lazy" width="400" height="500" src="/photos/proyecto4.jpg" alt="Proyecto 4">
-                <h3>Nombre del Proyecto 4</h3>
-                <p>Descripción breve del proyecto, tecnologías utilizadas y tu rol en el proyecto.</p>
-                <a href="enlace/al/proyecto4">Ver proyecto</a>
-            </div>
+
         </section>
 
         <section id="skills">
